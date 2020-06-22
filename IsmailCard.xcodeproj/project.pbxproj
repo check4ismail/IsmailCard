@@ -13,6 +13,7 @@
 		21E2248D24A0E69B00A7ABA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21E2248C24A0E69B00A7ABA0 /* Assets.xcassets */; };
 		21E2249024A0E69B00A7ABA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21E2248F24A0E69B00A7ABA0 /* Preview Assets.xcassets */; };
 		21E2249324A0E69B00A7ABA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21E2249124A0E69B00A7ABA0 /* LaunchScreen.storyboard */; };
+		21E2249C24A0E8A100A7ABA0 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21E2249B24A0E8A100A7ABA0 /* Pacifico-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		21E2248F24A0E69B00A7ABA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		21E2249224A0E69B00A7ABA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21E2249424A0E69B00A7ABA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21E2249B24A0E8A100A7ABA0 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		21E2248524A0E69900A7ABA0 /* IsmailCard */ = {
 			isa = PBXGroup;
 			children = (
+				21E2249A24A0E88100A7ABA0 /* fonts */,
 				21E2248624A0E69900A7ABA0 /* AppDelegate.swift */,
 				21E2248824A0E69900A7ABA0 /* SceneDelegate.swift */,
 				21E2248A24A0E69900A7ABA0 /* ContentView.swift */,
@@ -73,6 +76,14 @@
 				21E2248F24A0E69B00A7ABA0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		21E2249A24A0E88100A7ABA0 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				21E2249B24A0E8A100A7ABA0 /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21E2249324A0E69B00A7ABA0 /* LaunchScreen.storyboard in Resources */,
+				21E2249C24A0E8A100A7ABA0 /* Pacifico-Regular.ttf in Resources */,
 				21E2249024A0E69B00A7ABA0 /* Preview Assets.xcassets in Resources */,
 				21E2248D24A0E69B00A7ABA0 /* Assets.xcassets in Resources */,
 			);
