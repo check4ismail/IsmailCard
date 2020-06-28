@@ -31,13 +31,8 @@ struct ContentView: View {
 					.font(.system(size: 25))
 				Divider()
 				
-				Rectangle()
-				.frame(height: 50)
-				.cornerRadius(25)
-				.foregroundColor(.white)
-				.overlay(
-					Text("+1 123-456-7890")
-				)
+				InfoView(text: "+1 123-456-7890", imageName: "phone.fill")
+				InfoView(text: "ismail@ismail.com", imageName: "envelope.fill")
 			}
 		}
     }
